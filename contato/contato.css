@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.banner {
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/01/batman-robert-pattinson-2022.jpg?w=1200&h=675&crop=1');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+}
