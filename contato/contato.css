@@ -7,14 +7,40 @@
 }
 
 header {
-    height: 90px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
     width: 150px;
     height: auto;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.icons {
+    color: aliceblue;
+    transition: .5s;
+}
+
+.icons:hover {
+    color: red;
 }
 
 .banner {
@@ -27,4 +53,15 @@ header {
 footer {
     height: 100px;
     width: 100%;
+    display: block;
+}
+
+.tittle {
+    font-size: 20px;
+    color: white;
+}
+
+.text {
+    font-size: 15px;
+    color: white;
 }
