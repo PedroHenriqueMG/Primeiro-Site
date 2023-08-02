@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -59,9 +61,11 @@ footer {
 .tittle {
     font-size: 20px;
     color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .text {
     font-size: 15px;
     color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
